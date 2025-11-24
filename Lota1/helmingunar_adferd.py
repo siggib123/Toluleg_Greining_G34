@@ -8,7 +8,7 @@ def f(x):
 # plot
 x = np.linspace(-10,10,20)
 f_x = f(x)
-
+# huh
 mpl.plot(x,f_x)
 mpl.show()
 

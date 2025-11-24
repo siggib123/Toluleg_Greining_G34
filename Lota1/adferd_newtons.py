@@ -15,8 +15,8 @@ f_x = f(x)
 mpl.plot(x,f_x)
 #mpl.show()
 
-I_GUESS = -9.41
-TOLERANCE = 0.00001
+I_GUESS = -9.41 + 5j
+TOLERANCE = 1e-4
 
 def adferd_newtons(I_guess, tolerance):
     x = I_guess

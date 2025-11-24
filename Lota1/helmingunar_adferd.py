@@ -10,7 +10,7 @@ x = np.linspace(-10,10,20)
 f_x = f(x)
 
 mpl.plot(x,f_x)
-mpl.show()
+mpl.show() # ye ya
 
 MIN = -3
 MAX = 3

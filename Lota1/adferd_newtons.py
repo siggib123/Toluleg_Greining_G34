@@ -12,10 +12,10 @@ x = np.linspace(-10,10,20)
 f_x = f(x)
 
 mpl.plot(x,f_x)
-mpl.show()
+#mpl.show()
 
-I_GUESS = 10
-TOLERANCE = 0.001
+I_GUESS = -9.41 + 5j
+TOLERANCE = 1e-4
 
 def adferd_newtons(I_guess, tolerance):
     x = I_guess
@@ -24,7 +24,6 @@ def adferd_newtons(I_guess, tolerance):
     while abs(x-x_old)>tolerance:
         x_old = x
         x = x_old - f(x_old) / df(x_old)
-
     return x
 
 

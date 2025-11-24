@@ -2,10 +2,10 @@ import matplotlib.pyplot as mpl
 import numpy as np
 
 def f(x):
-    return x**2-2
+    return 2*x**4+23*x**3+45*x**2+60*x+50
 
 def df(x):
-    return 2*x
+    return 8*x**3+69*x**2+90*x+60
 
 # plot
 x = np.linspace(-10,10,20)
